@@ -23,7 +23,7 @@ public class validateHomeMap extends base
 		 driver.get(prop.getProperty("url"));
 		 
 		 LandingPage lp=new LandingPage(driver);
-		 Assert.assertFalse(lp.getHomeMap().isDisplayed());
+		 Assert.assertTrue(lp.getHomeMap().isDisplayed());
 
 	}
 }
