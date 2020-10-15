@@ -21,7 +21,7 @@ public class HomePage extends base
 	{
 	
 		 driver = initializeDriver();
-		 driver.get("https://bikroy.com/en");
+		 driver.get(prop.getProperty("url"));
 		 
 		 LandingPage lp=new LandingPage(driver);
 		 lp.getLoginPage().click();
