@@ -16,7 +16,7 @@ public WebDriver driver;
 	{
 	
 		 driver = initializeDriver();
-		 driver.get("https://bikroy.com/en");
+		 driver.get(prop.getProperty("url"));
 		 
 		 LandingPage lp=new LandingPage(driver);
 		 Assert.assertEquals(lp.getTitle().getText(),"Welcome to Bikroy.com - the largest marketplace in Bangladesh!");
