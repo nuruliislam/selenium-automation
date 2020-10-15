@@ -11,7 +11,8 @@ public class LandingPage
 	
 	By signin=By.linkText("Log in");
 
-	public LandingPage(WebDriver driver) {
+	public LandingPage(WebDriver driver) 
+	{
 		this.driver=driver;
 		
 	}
