@@ -1,4 +1,4 @@
-package Framework;
+package resources;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -18,7 +18,7 @@ public class base
 	{
 		
 		prop= new Properties();
-		FileInputStream fis=new FileInputStream("C:\\work\\Java-selenium\\selenium-automation\\src\\main\\java\\Framework\\data.properties");
+		FileInputStream fis=new FileInputStream("C:\\work\\Java-selenium\\selenium-automation\\src\\main\\java\\resources\\data.properties");
 	
 		prop.load(fis);
 		String browserName=prop.getProperty("browserName");

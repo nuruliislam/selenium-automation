@@ -5,6 +5,9 @@ import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
+import pageObjects.LandingPage;
+import resources.base;
+
 public class HomePage extends base 
 {
 	public WebDriver driver;
@@ -16,6 +19,9 @@ public class HomePage extends base
 	
 		 driver = initializeDriver();
 		 driver.get("https://bikroy.com/en");
+		 
+		 LandingPage lp=new LandingPage(driver);
+		 lp.getLoginPage().click();
 
 	}
 }
