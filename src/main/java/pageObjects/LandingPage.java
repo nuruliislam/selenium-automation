@@ -8,9 +8,10 @@ public class LandingPage
 {
 	
 	public WebDriver driver;
-	By title=By.cssSelector("[class='t-bold']");
 	
 	By signin=By.linkText("Log in");
+	By title=By.cssSelector("[class='t-bold']");
+	By catagorys=By.cssSelector("[class='home-map']");
 
 	public LandingPage(WebDriver driver) 
 	{
@@ -27,5 +28,10 @@ public class LandingPage
 	public WebElement getTitle()
 	{
 		return driver.findElement(title);
+	}
+	
+	public WebElement getHomeMap()
+	{
+		return driver.findElement(catagorys);
 	}
 }
