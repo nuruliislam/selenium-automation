@@ -36,7 +36,7 @@ public class HomePage extends base
 		 lg.getEmail().sendKeys(email);
 		 lg.getPassword().sendKeys(pass);
 		 
-		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		 //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 lg.getLogin().click();
 	}
 	
@@ -44,14 +44,14 @@ public class HomePage extends base
 	@DataProvider
 	public Object[][] getUsers()
 	{
-		Object[][] data=new Object[2][2];
+		Object[][] data=new Object[1][2];
 		//0th row
-		data[0][0]="1st user email";
-		data[0][1]="1st user password";
+		data[0][0]="username@gmail.com";
+		data[0][1]="password";
 		
 		//1st row
-		data[1][0]="2nd user email";
-		data[1][1]="2nd user password";
+		//data[1][0]="mdnrl59@gmail.com";
+		//data[1][1]="nurul1994";
 		
 		return data;
 	}
