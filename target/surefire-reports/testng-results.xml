@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-16T09:27:48Z" name="Suite" finished-at="2020-10-16T09:28:09Z" duration-ms="21628">
+    <groups>
+    </groups>
+    <test started-at="2020-10-16T09:27:48Z" name="Test" finished-at="2020-10-16T09:28:09Z" duration-ms="21628">
+      <class name="Framework.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.HomePage@759d26fb]" started-at="2020-10-16T10:27:48Z" name="initialize" finished-at="2020-10-16T10:27:51Z" duration-ms="3327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.validateHomeMap@67c33749]" started-at="2020-10-16T10:27:51Z" name="initialize" finished-at="2020-10-16T10:27:54Z" duration-ms="3037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.validateTitle@fba92d3]" started-at="2020-10-16T10:27:54Z" name="initialize" finished-at="2020-10-16T10:27:57Z" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Framework.HomePage@759d26fb]" started-at="2020-10-16T10:28:06Z" name="basePageNavigation" data-provider="getUsers" finished-at="2020-10-16T10:28:09Z" duration-ms="3611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.HomePage@759d26fb]" started-at="2020-10-16T10:28:09Z" name="teardown" finished-at="2020-10-16T10:28:09Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.validateHomeMap@67c33749]" started-at="2020-10-16T10:28:09Z" name="teardown" finished-at="2020-10-16T10:28:09Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.validateTitle@fba92d3]" started-at="2020-10-16T10:28:09Z" name="teardown" finished-at="2020-10-16T10:28:09Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Framework.HomePage -->
+      <class name="Framework.validateHomeMap">
+        <test-method signature="basePageNavigation()[pri:0, instance:Framework.validateHomeMap@67c33749]" started-at="2020-10-16T10:28:02Z" name="basePageNavigation" finished-at="2020-10-16T10:28:06Z" duration-ms="3409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Framework.validateHomeMap -->
+      <class name="Framework.validateTitle">
+        <test-method signature="basePageNavigation()[pri:0, instance:Framework.validateTitle@fba92d3]" started-at="2020-10-16T10:27:57Z" name="basePageNavigation" finished-at="2020-10-16T10:28:02Z" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Framework.validateTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
