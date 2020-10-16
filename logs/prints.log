@@ -1,7 +1,7 @@
-11:45:47.886 [main] INFO  resources.base - Test Started
-11:45:51.094 [main] INFO  resources.base - navigate to homepage
-11:45:51.118 [main] INFO  resources.base - Successfully validated Title 
-11:45:51.119 [main] INFO  resources.base - Test Succeded
-11:45:54.213 [main] INFO  resources.base - Test Started
-11:46:01.429 [main] INFO  resources.base - HomeMap is displayed
-11:46:01.430 [main] INFO  resources.base - Test Succeded
+12:25:21.185 [main] INFO  resources.base - Test Failed
+12:25:24.931 [main] INFO  resources.base - Driver is initialized
+12:25:24.932 [main] INFO  resources.base - Test Started
+12:25:31.625 [main] INFO  resources.base - navigate to homepage
+12:25:31.650 [main] INFO  resources.base - Successfully validated Title 
+12:25:34.795 [main] INFO  resources.base - Test Started
+12:25:38.104 [main] INFO  resources.base - HomeMap is displayed
