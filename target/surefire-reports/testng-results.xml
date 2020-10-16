@@ -2,24 +2,16 @@
 <testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-16T09:51:48Z" name="Suite" finished-at="2020-10-16T09:52:07Z" duration-ms="18359">
+  <suite started-at="2020-10-16T10:15:16Z" name="Suite" finished-at="2020-10-16T10:15:34Z" duration-ms="18517">
     <groups>
     </groups>
-    <test started-at="2020-10-16T09:51:48Z" name="Test" finished-at="2020-10-16T09:52:07Z" duration-ms="18359">
+    <test started-at="2020-10-16T10:15:16Z" name="Validating User login" finished-at="2020-10-16T10:15:23Z" duration-ms="7633">
       <class name="Framework.HomePage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.HomePage@781f10f2]" started-at="2020-10-16T10:51:48Z" name="initialize" finished-at="2020-10-16T10:51:52Z" duration-ms="3332" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.HomePage@4bbf6d0e]" started-at="2020-10-16T11:15:16Z" name="initialize" finished-at="2020-10-16T11:15:19Z" duration-ms="3447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.validateHomeMap@2a79d4b1]" started-at="2020-10-16T10:51:52Z" name="initialize" finished-at="2020-10-16T10:51:55Z" duration-ms="3058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.validateTitle@5f7b97da]" started-at="2020-10-16T10:51:55Z" name="initialize" finished-at="2020-10-16T10:51:58Z" duration-ms="3022" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Framework.HomePage@781f10f2]" started-at="2020-10-16T10:52:02Z" name="basePageNavigation" data-provider="getUsers" finished-at="2020-10-16T10:52:07Z" duration-ms="5133" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Framework.HomePage@4bbf6d0e]" started-at="2020-10-16T11:15:19Z" name="basePageNavigation" data-provider="getUsers" finished-at="2020-10-16T11:15:23Z" duration-ms="4137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,31 +27,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.HomePage@781f10f2]" started-at="2020-10-16T10:52:07Z" name="teardown" finished-at="2020-10-16T10:52:07Z" duration-ms="40" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.validateHomeMap@2a79d4b1]" started-at="2020-10-16T10:52:07Z" name="teardown" finished-at="2020-10-16T10:52:07Z" duration-ms="49" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.validateTitle@5f7b97da]" started-at="2020-10-16T10:52:07Z" name="teardown" finished-at="2020-10-16T10:52:07Z" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.HomePage@4bbf6d0e]" started-at="2020-10-16T11:15:23Z" name="teardown" finished-at="2020-10-16T11:15:23Z" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Framework.HomePage -->
-      <class name="Framework.validateHomeMap">
-        <test-method signature="basePageNavigation()[pri:0, instance:Framework.validateHomeMap@2a79d4b1]" started-at="2020-10-16T10:51:59Z" name="basePageNavigation" finished-at="2020-10-16T10:52:02Z" duration-ms="2578" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-      </class> <!-- Framework.validateHomeMap -->
+    </test> <!-- Validating User login -->
+    <test started-at="2020-10-16T10:15:23Z" name="Validating title in the Page" finished-at="2020-10-16T10:15:29Z" duration-ms="5375">
       <class name="Framework.validateTitle">
-        <test-method signature="basePageNavigation()[pri:0, instance:Framework.validateTitle@5f7b97da]" started-at="2020-10-16T10:51:58Z" name="basePageNavigation" finished-at="2020-10-16T10:51:59Z" duration-ms="1073" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.validateTitle@495ee280]" started-at="2020-10-16T11:15:23Z" name="initialize" finished-at="2020-10-16T11:15:27Z" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Framework.validateTitle@495ee280]" started-at="2020-10-16T11:15:27Z" name="basePageNavigation" finished-at="2020-10-16T11:15:29Z" duration-ms="2263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.validateTitle@495ee280]" started-at="2020-10-16T11:15:29Z" name="teardown" finished-at="2020-10-16T11:15:29Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- Framework.validateTitle -->
-    </test> <!-- Test -->
+    </test> <!-- Validating title in the Page -->
+    <test started-at="2020-10-16T10:15:29Z" name="App Testing" finished-at="2020-10-16T10:15:29Z" duration-ms="1">
+    </test> <!-- App Testing -->
+    <test started-at="2020-10-16T10:15:29Z" name="Validating Home Map" finished-at="2020-10-16T10:15:34Z" duration-ms="5477">
+      <class name="Framework.validateHomeMap">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.validateHomeMap@4a00d9cf]" started-at="2020-10-16T11:15:29Z" name="initialize" finished-at="2020-10-16T11:15:32Z" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Framework.validateHomeMap@4a00d9cf]" started-at="2020-10-16T11:15:32Z" name="basePageNavigation" finished-at="2020-10-16T11:15:34Z" duration-ms="2337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.validateHomeMap@4a00d9cf]" started-at="2020-10-16T11:15:34Z" name="teardown" finished-at="2020-10-16T11:15:34Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Framework.validateHomeMap -->
+    </test> <!-- Validating Home Map -->
   </suite> <!-- Suite -->
 </testng-results>
