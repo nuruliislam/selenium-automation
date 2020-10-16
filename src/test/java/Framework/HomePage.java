@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -15,12 +17,16 @@ public class HomePage extends base
 {
 	public WebDriver driver;
 	
+	@BeforeTest
+	public void initialize() throws IOException
+	{
+		driver =initializeDriver();
+	}
 	
 	@Test(dataProvider="getUsers")
-	public void initialize(String email,String pass) throws IOException
+	public void basePageNavigation(String email,String pass) throws IOException
 	{
 	
-		 driver = initializeDriver();
 		 driver.get(prop.getProperty("url"));
 		 
 		 LandingPage lp=new LandingPage(driver);
@@ -38,7 +44,6 @@ public class HomePage extends base
 	@DataProvider
 	public Object[][] getUsers()
 	{
-		
 		Object[][] data=new Object[2][2];
 		//0th row
 		data[0][0]="1st user email";
@@ -49,5 +54,11 @@ public class HomePage extends base
 		data[1][1]="2nd user password";
 		
 		return data;
+	}
+	
+	@AfterTest
+	public void teardown()
+	{
+		driver.close();
 	}
 }
