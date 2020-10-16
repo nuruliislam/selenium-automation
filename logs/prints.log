@@ -1,5 +1,7 @@
-11:39:03.737 [main] INFO  resources.base - Successfully validated Title 
-11:39:03.741 [main] INFO  resources.base - Test Succeded
-11:39:06.823 [main] INFO  resources.base - Test Started
-11:39:09.941 [main] INFO  resources.base - HomeMap is displayed
-11:39:09.942 [main] INFO  resources.base - Test Succeded
+11:45:47.886 [main] INFO  resources.base - Test Started
+11:45:51.094 [main] INFO  resources.base - navigate to homepage
+11:45:51.118 [main] INFO  resources.base - Successfully validated Title 
+11:45:51.119 [main] INFO  resources.base - Test Succeded
+11:45:54.213 [main] INFO  resources.base - Test Started
+11:46:01.429 [main] INFO  resources.base - HomeMap is displayed
+11:46:01.430 [main] INFO  resources.base - Test Succeded
