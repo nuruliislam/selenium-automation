@@ -28,7 +28,6 @@ public class validateTitle extends base
 		 
 		 LandingPage lp=new LandingPage(driver);
 		 Assert.assertEquals(lp.getTitle().getText(),"Welcome to Bikroy.com - the largest marketplace in Bangladesh!");
-
 	}
 	
 	@AfterTest
