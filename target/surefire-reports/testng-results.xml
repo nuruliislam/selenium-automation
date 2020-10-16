@@ -2,24 +2,24 @@
 <testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-16T09:27:48Z" name="Suite" finished-at="2020-10-16T09:28:09Z" duration-ms="21628">
+  <suite started-at="2020-10-16T09:51:48Z" name="Suite" finished-at="2020-10-16T09:52:07Z" duration-ms="18359">
     <groups>
     </groups>
-    <test started-at="2020-10-16T09:27:48Z" name="Test" finished-at="2020-10-16T09:28:09Z" duration-ms="21628">
+    <test started-at="2020-10-16T09:51:48Z" name="Test" finished-at="2020-10-16T09:52:07Z" duration-ms="18359">
       <class name="Framework.HomePage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.HomePage@759d26fb]" started-at="2020-10-16T10:27:48Z" name="initialize" finished-at="2020-10-16T10:27:51Z" duration-ms="3327" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.HomePage@781f10f2]" started-at="2020-10-16T10:51:48Z" name="initialize" finished-at="2020-10-16T10:51:52Z" duration-ms="3332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.validateHomeMap@67c33749]" started-at="2020-10-16T10:27:51Z" name="initialize" finished-at="2020-10-16T10:27:54Z" duration-ms="3037" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.validateHomeMap@2a79d4b1]" started-at="2020-10-16T10:51:52Z" name="initialize" finished-at="2020-10-16T10:51:55Z" duration-ms="3058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.validateTitle@fba92d3]" started-at="2020-10-16T10:27:54Z" name="initialize" finished-at="2020-10-16T10:27:57Z" duration-ms="3038" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Framework.validateTitle@5f7b97da]" started-at="2020-10-16T10:51:55Z" name="initialize" finished-at="2020-10-16T10:51:58Z" duration-ms="3022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Framework.HomePage@759d26fb]" started-at="2020-10-16T10:28:06Z" name="basePageNavigation" data-provider="getUsers" finished-at="2020-10-16T10:28:09Z" duration-ms="3611" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Framework.HomePage@781f10f2]" started-at="2020-10-16T10:52:02Z" name="basePageNavigation" data-provider="getUsers" finished-at="2020-10-16T10:52:07Z" duration-ms="5133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,27 +35,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.HomePage@759d26fb]" started-at="2020-10-16T10:28:09Z" name="teardown" finished-at="2020-10-16T10:28:09Z" duration-ms="57" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.HomePage@781f10f2]" started-at="2020-10-16T10:52:07Z" name="teardown" finished-at="2020-10-16T10:52:07Z" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.validateHomeMap@67c33749]" started-at="2020-10-16T10:28:09Z" name="teardown" finished-at="2020-10-16T10:28:09Z" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.validateHomeMap@2a79d4b1]" started-at="2020-10-16T10:52:07Z" name="teardown" finished-at="2020-10-16T10:52:07Z" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.validateTitle@fba92d3]" started-at="2020-10-16T10:28:09Z" name="teardown" finished-at="2020-10-16T10:28:09Z" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework.validateTitle@5f7b97da]" started-at="2020-10-16T10:52:07Z" name="teardown" finished-at="2020-10-16T10:52:07Z" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Framework.HomePage -->
       <class name="Framework.validateHomeMap">
-        <test-method signature="basePageNavigation()[pri:0, instance:Framework.validateHomeMap@67c33749]" started-at="2020-10-16T10:28:02Z" name="basePageNavigation" finished-at="2020-10-16T10:28:06Z" duration-ms="3409" status="PASS">
+        <test-method signature="basePageNavigation()[pri:0, instance:Framework.validateHomeMap@2a79d4b1]" started-at="2020-10-16T10:51:59Z" name="basePageNavigation" finished-at="2020-10-16T10:52:02Z" duration-ms="2578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
       </class> <!-- Framework.validateHomeMap -->
       <class name="Framework.validateTitle">
-        <test-method signature="basePageNavigation()[pri:0, instance:Framework.validateTitle@fba92d3]" started-at="2020-10-16T10:27:57Z" name="basePageNavigation" finished-at="2020-10-16T10:28:02Z" duration-ms="5005" status="PASS">
+        <test-method signature="basePageNavigation()[pri:0, instance:Framework.validateTitle@5f7b97da]" started-at="2020-10-16T10:51:58Z" name="basePageNavigation" finished-at="2020-10-16T10:51:59Z" duration-ms="1073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
