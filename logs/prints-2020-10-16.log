@@ -1,0 +1,8 @@
+11:15:29.266 [main] INFO  resources.base - Successfully validated Title 
+11:15:34.746 [main] INFO  resources.base - HomeMap is displayed
+11:38:52.856 [main] INFO  resources.base - Test Started
+11:38:56.884 [main] INFO  resources.base - username@gmail.com
+11:38:57.647 [main] INFO  resources.base - Test Failed
+11:39:00.794 [main] INFO  resources.base - Driver is initialized
+11:39:00.795 [main] INFO  resources.base - Test Started
+11:39:03.711 [main] INFO  resources.base - navigate to homepage
