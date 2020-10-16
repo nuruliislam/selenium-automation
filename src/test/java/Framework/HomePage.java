@@ -3,6 +3,8 @@ package Framework;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -16,6 +18,7 @@ import resources.base;
 public class HomePage extends base 
 {
 	public WebDriver driver;
+	public static Logger log =LogManager.getLogger(base.class.getName());
 	
 	@BeforeTest
 	public void initialize() throws IOException
@@ -35,6 +38,8 @@ public class HomePage extends base
 		 LoginPage lg=new LoginPage(driver);
 		 lg.getEmail().sendKeys(email);
 		 lg.getPassword().sendKeys(pass);
+		 
+		 log.info(email);
 		 
 		 //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 lg.getLogin().click();
